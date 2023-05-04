@@ -14,11 +14,6 @@ export default function MacBookPro141 () {
 			<form>
 			<div className='Frame3'>
 				<div className='Frame1'>
-					
-
-					<span className='Email'>
-						<input type='email' placeholder='Email' required/>
-					</span>
 
 					<span className='Email'><form>
 						<input className='form_input' type='text' placeholder='Email' id='name'/>
@@ -29,12 +24,6 @@ export default function MacBookPro141 () {
 			</div>
 			<div className='Frame4'>
 				<div className='Frame2'>
-
-				<span className='Password'>
-					
-						<input type='password' placeholder='Password'required/>
-					
-				</span>
 
 				<span className='Password'><form>
 						<input className='form_input' type='password' placeholder='Password' id='password'/>
