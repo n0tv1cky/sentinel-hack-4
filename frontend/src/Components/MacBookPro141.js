@@ -11,20 +11,22 @@ export default function MacBookPro141 () {
 			<span className='CreditWise'>CreditWise</span>
 			<span className='AllInOneWebsite'>All In One Website</span>
 			<span className='LoanApprovalFraudulentTransactionPrediction'>Loan Approval, <br/>Fraudulent Transaction Prediction</span>
-			
+			<form>
 			<div className='Frame3'>
 				<div className='Frame1'>
 					
-					<span className='Email'><form>
-						<input type='email' placeholder='Email'/>
-					</form></span>
+					<span className='Email'>
+						<input type='email' placeholder='Email' required/>
+					</span>
 				</div>
 			</div>
 			<div className='Frame4'>
 				<div className='Frame2'>
-				<span className='Password'><form>
-						<input type='password' placeholder='Password'/>
-					</form></span>
+				<span className='Password'>
+					
+						<input type='password' placeholder='Password'required/>
+					
+				</span>
 				</div>
 			</div>
 			{/* <div className='Frame2_1'>
@@ -32,9 +34,12 @@ export default function MacBookPro141 () {
 			</div> */}
 			<div className='Frame5'>
 				<div className='Frame2_2'>
-					<span className='SignIn'><button>Login</button></span>
+					<span className='SignIn'><button type='submit'>Login</button></span>
 				</div>
 			</div>
+
+			</form>
+			
 			<div className='logonobackground1'>
 				<div className='Group'>
 					<div className='Frame'>
