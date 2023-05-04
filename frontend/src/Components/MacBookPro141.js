@@ -16,14 +16,16 @@ export default function MacBookPro141 () {
 				<div className='Frame1'>
 					
 					<span className='Email'><form>
-						<input type='email' placeholder='Email'/>
+						<input className='form_input' type='text' placeholder='Email' id='name'/>
+						<label className='form_label' for='name'>Email</label>
 					</form></span>
 				</div>
 			</div>
 			<div className='Frame4'>
 				<div className='Frame2'>
 				<span className='Password'><form>
-						<input type='password' placeholder='Password'/>
+						<input className='form_input' type='password' placeholder='Password' id='password'/>
+						<label className='form_label' for='password'>Password</label>
 					</form></span>
 				</div>
 			</div>
