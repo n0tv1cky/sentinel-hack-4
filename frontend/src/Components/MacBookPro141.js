@@ -11,19 +11,25 @@ export default function MacBookPro141 () {
 			<span className='CreditWise'>CreditWise</span>
 			<span className='AllInOneWebsite'>All In One Website</span>
 			<span className='LoanApprovalFraudulentTransactionPrediction'>Loan Approval, <br/>Fraudulent Transaction Prediction</span>
-			<span className='SignIntoyouraccount'>Sign In to your account</span>
+			
 			<div className='Frame3'>
 				<div className='Frame1'>
-					<span className='Username'>Username</span>
+					
+					<span className='Username'><form>
+						<input type='text' placeholder='Enter Email'/>
+					</form></span>
 				</div>
 			</div>
 			<div className='Frame4'>
 				<div className='Frame2'>
+				<span className='Username'><form>
+						<input type='text' placeholder='Enter Password'/>
+					</form></span>
 				</div>
 			</div>
-			<div className='Frame2_1'>
+			{/* <div className='Frame2_1'>
 				<span className='ForgotPassword'>Forgot Password?</span>
-			</div>
+			</div> */}
 			<div className='Frame5'>
 				<div className='Frame2_2'>
 					<span className='SignIn'>Sign In</span>
