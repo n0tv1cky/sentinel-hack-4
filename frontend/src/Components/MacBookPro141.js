@@ -15,15 +15,15 @@ export default function MacBookPro141 () {
 			<div className='Frame3'>
 				<div className='Frame1'>
 					
-					<span className='Username'><form>
-						<input type='text' placeholder='Enter Email'/>
+					<span className='Email'><form>
+						<input type='email' placeholder='Email'/>
 					</form></span>
 				</div>
 			</div>
 			<div className='Frame4'>
 				<div className='Frame2'>
-				<span className='Username'><form>
-						<input type='text' placeholder='Enter Password'/>
+				<span className='Password'><form>
+						<input type='password' placeholder='Password'/>
 					</form></span>
 				</div>
 			</div>
@@ -32,7 +32,7 @@ export default function MacBookPro141 () {
 			</div> */}
 			<div className='Frame5'>
 				<div className='Frame2_2'>
-					<span className='SignIn'>Sign In</span>
+					<span className='SignIn'><button>Login</button></span>
 				</div>
 			</div>
 			<div className='logonobackground1'>
